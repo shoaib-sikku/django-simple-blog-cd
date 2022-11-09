@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+}
+#head{
+    height: 180px;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px grey;
+    margin-top: 5px ;
+    background-color: white;
+}

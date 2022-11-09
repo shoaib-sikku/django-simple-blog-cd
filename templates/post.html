@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Post{% endblock %}
+{% block post %}
+<div class="container">
+        <div class="card mt-2">
+            <div class="card-body">
+              <h5 class="card-title text-dark">{{post.title}}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">{{post.created_at}}</h6>
+              <p class="card-text text-black">{{post.description}}</p>
+            </div>
+        </div>
+</div>
+{% endblock %}
